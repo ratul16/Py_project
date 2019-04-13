@@ -2,10 +2,10 @@ import turtle
 from alphabat import alphabet
 
 myPen = turtle.Turtle()
-myPen.speed(0)
+myPen.speed(1)
 window = turtle.Screen()
 window.bgcolor("#ecf0f1")
-myPen.pensize(2)
+myPen.pensize(4)
 
 #Funtion Starts from here
 
@@ -30,9 +30,9 @@ def displayMessage(message, fontSize, color, x, y):
 
 
 # Main Program Starts Here
-fontSize = 20
+fontSize = 50
 characterSpacing = 5
 fontColor = "#e74c3c"
-message = "Hello Zeba ghum theke uthar shomoy hoise"
-displayMessage(message, fontSize, fontColor, -600, 0)
+message = "Hello World"
+displayMessage(message, fontSize, fontColor, -300, 0)
 turtle.done()
